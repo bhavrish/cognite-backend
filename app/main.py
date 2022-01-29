@@ -19,6 +19,7 @@ def predict():
     forecast = test_model.predict(10)
     print(forecast)
     
+    # temp
     # classifier = joblib.load('datathon.pkl')
     # prediction = classifier.predict(query)
     return jsonify({'prediction': list(forecast)})
