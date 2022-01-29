@@ -22,7 +22,3 @@ def predict():
     # classifier = joblib.load('datathon.pkl')
     # prediction = classifier.predict(query)
     return jsonify({'prediction': forecast})
-
-
-if __name__ == '__main__':
-     app.run(port=8080)
